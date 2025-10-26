@@ -93,8 +93,8 @@
 	--library-header: linear-gradient(to bottom, #001050, #001050);
 	--library-header-hover: linear-gradient(to bottom, #0020a0, #0020a0);
 	--library-header-hover-color: #94c7ff;
-	--link: #89c2ff;
-	--link-hover: #00FFFF !important;
+	--link: #ff9191;
+	--link-hover: #53eccc !important;
 }
 
 html[data-theme="Blue"] {
@@ -1294,5 +1294,6 @@ button[name="close"] {
 		resize: none;
 	}
 }
+
 
 
