@@ -36,6 +36,13 @@
 }
 
 @font-face {
+	font-family: 'Perfect DOS VGA 437';
+	src: url('./Fonts/Perfect DOS VGA 437.ttf') format('truetype');hp[
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
 	font-family: 'VCR';
 	src: url('./Fonts/vcr.ttf') format('truetype');
 	font-weight: normal;
@@ -51,13 +58,13 @@
 /* ==[ Themes ] =========================================================================================== */
 
 :root {
-	--button-hover-color: #badbff;
-	--canvas-border: linear-gradient(#001050, #001050) 1;
-	--canvas-button: linear-gradient(to bottom, #001050, #001050);
+	--button-hover-color: #ff0000;
+	--canvas-border: linear-gradient(#000000, #000000);
+	--canvas-button: linear-gradient(to bottom, #890000, #330000);
 	--canvas-button-color: #c5c8c6;
-	--canvas-button-hover: linear-gradient(to bottom, #0020a0, #0020a0) !important;
-	--code-author: #001050;
-	--code-button: linear-gradient(to bottom, #001050, #001050);
+	--canvas-button-hover: linear-gradient(to bottom, #ff0000, #880000) !important;
+	--code-author: #890000;
+	--code-button: linear-gradient(to bottom, #890000, #001050);
 	--code-button-border: #505760;
 	--code-button-hover: linear-gradient(to bottom, #0020a0, #0020a0);
 	--code-comment: #7d8799;
@@ -75,27 +82,58 @@
 	--editor-font-family: 'NK57 Monospace', monospace;
 	--editor-font-size: 1;
 	--custom-font-family: monospace;
-	--control-button: linear-gradient(to bottom, #001050, #001050);
-	--control-button-active: linear-gradient(to bottom, #001050, #001050);
+	--control-button: linear-gradient(to bottom, #890000, #001050);
+	--control-button-active: linear-gradient(to bottom, #890000, #330000);
 	--control-button-border: #5c636c;
-	--control-button-hover: linear-gradient(to bottom, #0020a0, #0020a0);
+	--control-button-hover: linear-gradient(to bottom, #ff0000, #880000);
 	--control-corners: 6px;
 	--control-size: 30px;
-	--control-text: linear-gradient(to top, #001050, #001050);
-	--control-text-hover: linear-gradient(to top, #0020a0, #0020a0);
-	--control-volume: linear-gradient(to bottom, #001050, #001050);
-	--control-volume-hover: linear-gradient(to bottom, #0020a0, #0020a0);
+	--control-text: linear-gradient(to top, #890000, #001050);
+	--control-text-hover: linear-gradient(to top, #ff0000, #0020a0);
+	--control-volume: linear-gradient(to bottom, #890000, #001050);
+	--control-volume-hover: linear-gradient(to bottom, #ff0000, #880000);
 	--editor: #191c22;
 	--entry: #191c22;
-	--entry-border: linear-gradient(to right, #001050, #001050);
+	--entry-border: linear-gradient(to right, #000000, #000000);
 	--focus: #614fdb;
 	--font-size: 10.5pt;
-	--library-header: linear-gradient(to bottom, #001050, #001050);
-	--library-header-hover: linear-gradient(to bottom, #0020a0, #0020a0);
+	--library-header: linear-gradient(to bottom, #890000, #001050);
+	--library-header-hover: linear-gradient(to bottom, #ff0000, #880000);
 	--library-header-hover-color: #94c7ff;
 	--link: #89c2ff;
 	--link-hover: #00FFFF !important;
 }
+
+
+
+html[data-theme="Dollchan"] {
+	--canvas-border: linear-gradient(#fda757, #fda757) 1;
+	--canvas-button: linear-gradient(to bottom, #67789d, #181f33);
+	--canvas-button-hover: linear-gradient(to bottom, #92aeec, #181f33) !important;
+	--code-author: #2b3d69;
+	--code-button: linear-gradient(to bottom, #424242, #171b22);
+	--code-button-border: #505760;
+	--code-button-hover: linear-gradient(to bottom, #3c508a, #1f2331);
+	--code-tags: #5cac87;
+	--control-button: linear-gradient(to bottom, #959595, #242a37);
+	--control-button-active: linear-gradient(to bottom, #505f84, #1c1e26);
+	--control-button-border: #5c636c;
+	--control-button-hover: linear-gradient(to bottom, #738cc1, #28314a);
+	--control-text: linear-gradient(to top, #3a445e, #181c26);
+	--control-text-hover: linear-gradient(to top, #556897, #182033);
+	--control-volume: linear-gradient(to bottom, #aeaeae, #484c55);
+	--control-volume-hover: linear-gradient(to bottom, #90a7d7, #3f4c71);
+	--editor: #191c22;
+	--focus: #614fdb;
+	--link: #89c2ff;
+	--link-hover: #3fe2e2 !important;
+	--library-seperator: linear-gradient(to right, #435a91, #16202b);
+	--library-header: linear-gradient(to bottom, #202c46, #0b0d17);
+	--library-header-hover: linear-gradient(to bottom, #32426c, #151b2b);
+	--dialog-background: linear-gradient(to bottom,#313031,#505760);
+	--dialog-border: #aeaeae;
+}
+
 
 html[data-theme="Blue"] {
 	--canvas-border: linear-gradient(#94beff, #94beff) 1;
@@ -1294,5 +1332,6 @@ button[name="close"] {
 		resize: none;
 	}
 }
+
 
 
