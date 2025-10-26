@@ -21,6 +21,14 @@
 	font-style: normal;
 }
 
+
+@font-face {
+	font-family: 'Perfect DOS VGA 437';
+	src: url('./Fonts/Perfect DOS VGA 437.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 @font-face {
 	font-family: 'RobotoMono';
 	src: url('./Fonts/RobotoMono-Medium.ttf') format('truetype');
@@ -1355,6 +1363,7 @@ button[name="close"] {
 		resize: none;
 	}
 }
+
 
 
 
